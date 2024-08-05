@@ -15,7 +15,7 @@ const Projects = () => {
                             <span className='fs-5 fw-bold'>Encore - Telecalling, Inventory</span></Accordion.Header>
                         <Accordion.Body>
                             <div className='d-flex justify-content-center'>
-                            <Card  style={{ width: '60rem' }}>
+                            <Card  style={{ width: '65rem' }}>
                                 <Card.Img className='' variant="top" src={Encore} />
                                 <Card.Body>
                                     <Card.Text>
@@ -26,19 +26,25 @@ const Projects = () => {
                                     <p>Domain: Telecalling and Educational Management System</p>    
                                     <span className='fs-5 fw-bold'>Tele-calling</span><br></br><br></br>
                                        <ul>
-                                        <li><span className='fw-bold'>Telecaller System:</span> Developed a Vuejs frontend for telecallers to manage customer details and follow-up on exam course promotions.</li>
+                                        <li><span className='fw-bold'>Telecaller System:</span> Developed a Vuejs frontend for telecallers to manage customer details and follow-up on exams, course promotions, courses and book orders.</li>
                                         <li><span className='fw-bold'>Multitenancy with Spring Boot:</span> Implemented Spring Boot with PostgreSQL to ensure data security and isolation for different clients.</li>
                                         <li><span className='fw-bold'>Admin Role: </span>Introduced an admin role to manage telecaller activities, enquiries, admissions, and user creation.</li>
                                         <li><span className='fw-bold'>Lead Management:</span> Implemented manual lead creation and bulk lead upload, with features to assign telecallers for follow-ups. </li>
                                         <li><span className='fw-bold'>Super Admin:</span> Created a super admin role for team creation and management, with separate data for each team.</li>
                                         <li><span className='fw-bold'>Customer Transition:</span> Focused on transitioning customer statuses from enquiry to admission, including course purchase logic.</li>
                                         <li><span className='fw-bold'>Call Monitoring:</span> Admin panel displays telecaller call logs for monitoring, including call counts and speaking time analysis.</li>
-                                        <li><span className='fw-bold'>Payment Link Management:</span> Created a system to generate payment links through Razorpay integration. When users click the link and make payments, the amount is recorded in the payment link table within the Razorpay panel.</li>
                                        </ul>
                                        <span className='fs-5 fw-bold'> Inventory</span><br></br><br></br>
                                        <ul>
-                                        <li><span className='fw-bold'>Inventory System:</span> Developed a Vuejs frontend for inside staffs, workers to manage courses, books and follow-up on storage purpose.</li>
+                                        <li><span className='fw-bold'>Inventory System:</span> Developed a Vuejs frontend for inside workers to manage courses, books and follow-up on storage purpose.</li>
+                                        <li>In Inventory panel we can store depend upon their category, items and inventories.</li>
                                         <li><span className='fw-bold'>HR & Admin Role:</span> Introduced an HR role as well as  admin  to manage storage activities, inventories, and necessity needs .</li>
+                                       </ul>
+                                       <span className='fs-5 fw-bold'>Book Inventory</span><br></br><br></br>
+                                       <ul>
+                                        <li>In Inventory panel we can store depend upon their category, items and inventories.</li>
+                                        <li>Also, In this Book inventory-panel we can create book bundle also to track the book orders whether it is dispatched, partial dispatched or delivered etc</li>
+                                       <li>Also courier panel we can disptach books track their status</li>
                                        </ul>
                                     </Card.Text>
                                 </Card.Body>
