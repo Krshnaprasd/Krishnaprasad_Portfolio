@@ -83,8 +83,9 @@ const Projects = () => {
                                     </ul>
                                     <span className='fs-3 fw-bold'> Admin</span> <br></br><br></br>
                                     <ul>
-                                        <li>Admin side we can addon the employee details, the basic details, bank details and personal details, Salary, Job openings, Attendances  we can edit & modify.</li>
+                                        <li>Admin side we can add-on the employee details, the basic details, bank details and personal details, Salary, Job openings, Attendances  we can edit & modify.</li>
                                     </ul>
+                                
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
