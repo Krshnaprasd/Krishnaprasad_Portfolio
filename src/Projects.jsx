@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Accordion from 'react-bootstrap/Accordion';
 import Encore from './assets/Encore.png'
 import Econnect from './assets/Econnect.png'
+import TicTacToe from './assets/TicTacToe.png'
 
 const Projects = () => {
 
@@ -86,6 +87,39 @@ const Projects = () => {
                                         <li>Admin side we can add-on the employee details, the basic details, bank details and personal details, Salary, Job openings, Attendances  we can edit & modify.</li>
                                     </ul>
                                 
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion><br></br>
+
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <span className='fs-5 fw-bold'>Tic-Tac-Toe Game</span></Accordion.Header>
+                        <Accordion.Body>
+                            <div className='d-flex justify-content-center'>
+                            <Card  style={{ width: '60rem' }}>
+                                <Card.Img className='' variant="top" src={TicTacToe} />
+                                <Card.Body>
+                                    <Card.Text>
+                                    <p>Name: Tic-Tac-Toe Game</p>
+                                    <p>Environment: React.js</p>
+                                  
+                                    <span className='fs-3 fw-bold'>Project Description</span> <br></br><br></br>
+                                      <ul>
+                                        <li>I developed a dynamic Tic-Tac-Toe game using React.js, integrating real-time state management and interactive UI components.</li>
+                                   
+                                        <li> This project showcases my proficiency in React hooks, component-based architecture, and state management.</li>
+                                   
+                                        <li>The game features a responsive design, real-time win detection, and user-friendly alerts for victories or draws using SweetAlert2. </li>
+                                    
+                                        <li> Players can enjoy a seamless experience with immediate feedback and a reset option to start fresh.</li>
+                               
+                                        <li>This project highlights my ability to create engaging, functional, and visually appealing web applications.</li>
+                                    </ul>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
