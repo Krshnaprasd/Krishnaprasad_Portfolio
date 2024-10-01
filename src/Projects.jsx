@@ -3,6 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Encore from './assets/Encore.png'
 import Econnect from './assets/Econnect.png'
 import TicTacToe from './assets/TicTacToe.png'
+import FoodNest from './assets/foodNest.png'
 
 const Projects = () => {
 
@@ -47,6 +48,53 @@ const Projects = () => {
                                         <li>Also, In this Book inventory-panel we can create book bundle also to track the book orders whether it is dispatched, partial dispatched or delivered etc</li>
                                        <li>Also courier panel we can disptach books track their status</li>
                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion><br></br>
+
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <span className='fs-5 fw-bold'>FoodNest - Food website clone </span></Accordion.Header>
+                        <Accordion.Body>
+                            <div className='d-flex justify-content-center'>
+                            <Card  style={{ width: '60rem' }}>
+                                <Card.Img className='' variant="top" src={FoodNest} />
+                                <Card.Body>
+                                    <Card.Text>
+                                    <p>Name: FoodNest - Food cloning website</p>
+                                    <p>Environment:  React.js, Node.js, MongoDB</p>
+                                  
+                                    <span className='fs-3 fw-bold'>User</span> <br></br><br></br>
+                                      <ul>
+                                        <li>I developed the FoodNest platform with a focus on seamless user experience, tailored specifically for single-handed users.</li>
+                                   
+                                        <li> Customers can browse a wide range of food categories, add items to their cart, and place orders, with the validation ensuring that each user’s cart and orders are securely tied to their specific user ID. </li>
+                                   
+                                        <li>This means when users log in, they only see their own cart and order history, with no visibility into others’ activities, ensuring a personalized and private experience.</li>
+                                    
+                                        <li>FoodNest also integrates real-time notifications for order confirmations and uses Nodemailer to send reservation details directly to the user’s email.</li>
+                               
+                                        <li>This project highlights my ability to create engaging, functional, and visually appealing web applications.</li>
+                                    </ul>
+
+                                    
+                                    <span className='fs-3 fw-bold'>Admin</span> <br></br><br></br>
+                                      <ul>
+                                        <li>For administrators, FoodNest provides a robust backend management system where they can oversee and manage product listings, categories, and incoming orders.</li>
+                                   
+                                        <li>Built with React.js for the frontend, Node.js for the backend, and MongoDB as the database, the system allows efficient data handling and order management. </li>
+                                   
+                                        <li>Admins can also track user reservations and orders, ensuring smooth operation.</li>
+                                    
+                                        <li>The use of Nodemailer helps administrators handle communication with customers, automatically notifying them about order statuses and table reservations.</li>
+                               
+                                 
+                                    </ul>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
