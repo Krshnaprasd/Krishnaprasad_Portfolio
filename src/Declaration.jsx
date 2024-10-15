@@ -1,7 +1,8 @@
 
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
-import Swal from 'sweetalert2';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Declaration = () =>{
     const [show, setShow] = useState(false);
@@ -10,23 +11,23 @@ const Declaration = () =>{
     const handleShow = () => setShow(true);
 
     const handleClick = () => {
-      Swal.fire({
-        title: 'Message Sent',
-        icon: 'success',
-        confirmButtonText: 'Cool'
-      });
+      toast.success('Email sent successfully!', {
+        position: "top-center", // Set position as a string
+        autoClose: 3000, // Auto close after 3 seconds
+    });
     }
 
 return(
 <>
 <div className="container-fluid text-center">
     <div className="container">
+      <ToastContainer/>
     <button className='bg-secondary p-2 border-0 bg-gradient rounded-2 text-white' onClick={handleShow}>
        Stay Connected 
       </button>
-      <p className="text-black-50 pt-2 name-font1">Build with <svg className="iconclr bi bi-hearts" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
-        <path fillRule="evenodd" d="M4.931.481c1.627-1.671 5.692 1.254 0 5.015-5.692-3.76-1.626-6.686 0-5.015Zm6.84 1.794c1.084-1.114 3.795.836 0 3.343-3.795-2.507-1.084-4.457 0-3.343ZM7.84 7.642c2.71-2.786 9.486 2.09 0 8.358-9.487-6.268-2.71-11.144 0-8.358Z"/>
-      </svg> by Krishna Prasad</p>
+      <p className="text-black-50 pt-2 name-font1">Krishna Prasad 2024 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+  <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+</svg>  rights All Reserved</p>
 
       <Modal
         show={show}
