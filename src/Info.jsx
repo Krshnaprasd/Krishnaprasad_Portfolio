@@ -27,7 +27,7 @@ const Info = () => {
         emailjs.send('service_email997', 'template_kcha997', formData, 'g_PNRX2blxjG8Pehu')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
-                toast.success('Email sent. Reach out soon !', {
+                toast.success('Email sent. Reach out soon', {
                     position: "top-center", // Set position as a string
                     autoClose: 3000, // Auto close after 3 seconds
                 });
