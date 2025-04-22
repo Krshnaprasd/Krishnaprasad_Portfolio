@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal'
 import Image from 'react-bootstrap/Image';
 import Type from './TypeAnimation.jsx'
 
-import Resume from './assets/Krishnaprasad_FullstackDeveloper_3yrsexp_Resume.pdf'
+import Resume from './assets/Krishnaprasad_FullstackDeveloper_3.5yrsexp_Resume.pdf'
 import Img1 from './assets/IMG_7610.png'
 import Img2 from './assets/IMG_7622.PNG'
 
