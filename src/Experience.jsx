@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Card1 from './assets/examsdaily.jpg'
 import Card2 from './assets/Bluestone.jpg'
-import Card3 from './assets/s24.JPG'
+import Card3 from './assets/s24.jpg'
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
