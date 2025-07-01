@@ -99,7 +99,7 @@ const Experience = () => {
                                     <li>Provided technical support by troubleshooting any reported bugs or errors occurring within the system.</li>
                                     <li>Collaborated with other developers to identify areas of improvement within the application stack.</li>
                                     <li>Developed and maintained web applications using  React.js,  Node.js, JavaScript, Tailwind CSS, Java, springboot.</li>
-                                    <li>Assisted in designing database schemas for efficient storage of information related to web application's functionality.</li>
+                                    <li>Assisted in designing database schemas for efficient storage of information related to web applications functionality.</li>
                                     <li>Tested and debugged front-end and back-end components for web applications.</li>
                                     <li>Utilized Git for version control, facilitating team collaboration and code management.</li>
                                 </ul>
