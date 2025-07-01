@@ -85,21 +85,19 @@ const Portfolio = () => {
                             <div className="col">
                                 <ul>
                                     <span className='fs-6 fw-bold'>Languages</span>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
                                     <li>Java</li>
-                                    <li>Python</li>
                                     <li>Javascript</li>
-                                    <li>SpringBoot</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>  
                                 </ul>
                             </div>
                             <div className="col">
-                                <ul><span className='fs-6 fw-bold'>Frameworks</span>
+                                <ul><span className='fs-6 fw-bold'>Frameworks & Libraries</span>
                                     <li>React.JS</li>
-                                    <li>Vue.JS</li>
+                                    <li>SpringBoot</li>
                                     <li>Node.JS</li>
-                                    <li>Express.JS</li>
-                                    <li>Bootstrap Vue</li>
+                                    <li>Tailwind CSS</li>
+                                    <li>Vue.JS</li>
                                 </ul>
                             </div>
                             <div className="col">

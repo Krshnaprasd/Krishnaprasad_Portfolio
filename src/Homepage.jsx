@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal'
 import Image from 'react-bootstrap/Image';
 import Type from './TypeAnimation.jsx'
 
-import Resume from './assets/Krishnaprasad_FullstackDeveloper_3.5yrsexp_Resume.pdf'
+import Resume from './assets/Krishnaprasad_Fullstack Developer_3.9yrsexp_Resume.pdf'
 import Img1 from './assets/IMG_7610.png'
 import Img2 from './assets/IMG_7622.PNG'
 
@@ -36,8 +36,8 @@ const Homepage = () => {
                 
                 <div className='text-algn'>
                 <span >
-                Dedicated and results-driven Software Development Professional with years of hands-on experience in designing and developing dynamic, scalable, and user-centric web applications. Proficient in both front-end and back-end technologies, I bring expertise in React.js, Node.js, MongoDB, Java, Spring Boot, and PostgreSQL to craft robust solutions tailored to diverse project needs.</span>
-                  
+                Innovative Full Stack Developer known for high productivity and efficient task completion. Possess specialized skills in React.js, Node.js, Java, Springboot and Javascript ensuring robust front-end and back-end development. Excel in critical thinking, problem-solving, and teamwork, facilitating seamless collaboration on complex projects.
+</span>                  
                   </div></div>
             </div>
             <div className="col-lg-5 pb-5 d-flex justify-content-center order-1 order-lg-2">
@@ -91,8 +91,8 @@ const Homepage = () => {
             <div className="about-content col-lg-6 text-algn">
               <span className="name-font fs-2 fw-bold">About Me.</span>
               <p className="pt-2"><span className="fs-6">
-                - Well-proficient in Front-end website development with <span className="fw-bold">Vue.js, Vue-Bootstrap, Quasar framework , React.js</span>  creating responsive user interfaces and enchancing user experiences.<br></br><br></br>
-                - Good knowledge in developing backend appilications in Java using <span className="fw-bold">SpringBoot Framework</span>  and <span className="fw-bold">Javascript</span> using <span className="fw-bold">Express.js, Node.js</span> handling REST APIs and implements business logic.<br></br><br></br>
+                - Well-proficient in Front-end website development with <span className="fw-bold">React.Js, Vue.Js & Quasar Frameworks</span>  creating responsive user interfaces and enchancing user experiences.<br></br><br></br>
+                - Good knowledge in developing backend appilications in Java using <span className="fw-bold">SpringBoot</span>  and <span className="fw-bold">Javascript</span> using <span className="fw-bold">Express.js, Node.js</span> handling REST APIs and implements business logic.<br></br><br></br>
                 - Experience in working with <span className="fw-bold">PostgreSQL and MongoDB</span> as a database for efficient in data storage and retrieval.<br></br><br></br>
                 - Hands-on Experience in version control using <span className="fw-bold">Git and GitHub,</span>  managing code repositories and colloborating with other developers. <br></br><br></br>
                 - Familiarity with Agile Methodology, participating in ceremonies like weekly-standups, Sprint Planning, Sprint Review and Retrospective.</span></p>

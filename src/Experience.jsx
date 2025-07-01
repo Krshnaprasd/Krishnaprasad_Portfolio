@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Card1 from './assets/Card 1.jpeg'
-import Card2 from './assets/Card 2.jpg'
-import Card3 from './assets/Card 3.JPG'
+import Card1 from './assets/examsdaily.jpg'
+import Card2 from './assets/Bluestone.jpg'
+import Card3 from './assets/s24.JPG'
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
@@ -51,17 +51,17 @@ const Experience = () => {
                 <div className='name-font container  text-center '>
                     <div className="text-center fs-2 fw-bold name-font1 pb-4">Area of <span className="fs-2 fw-bold name-font">Expertise</span></div>
                     <div className='justify-content-evenly d-md-flex d-grid'>
-                        <Card className='m-3' style={{ width: '18rem', height: '22.8rem' }}>
-                            <Card.Img variant="top" src={Card1} />
+                        <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
+                            <Card.Img variant="top" src={Card1} className='shadow-sm'/>
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Full Stack Developer</Card.Title>
                                 <Card.Text>
-                                    ExamsDaily Pvt Ltd <br></br> AUG 2023 - Present
+                                  Mathy ExamsDaily Pvt Ltd <br></br> AUG 2023 - Present
                                 </Card.Text>
-                                <button className='bg-danger bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white' onClick={handleShow}>Tap more</button>
+                                <button className=' bg-tertiary bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 shadow-sm' onClick={handleShow}>Tap more</button>
                             </Card.Body>
                         </Card>
-                        <Card className='m-3' style={{ width: '18rem', height: '22.8rem' }}>
+                        <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
                             <Card.Img variant="top" src={Card2} />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Retail Representative </Card.Title>
@@ -69,10 +69,10 @@ const Experience = () => {
                                     Bluestone pvt ltd.<br></br>
                                     SEP 2022 to AUG 2023
                                 </Card.Text>
-                                <button className='bg-secondary bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white' onClick={handleShow1}>Tap more</button>
+                                <button className='bg-secondary bg-gradient p-2 ps-5 pe-5 rounded-2 shadow-sm border-0 text-white' onClick={handleShow1}>Tap more</button>
                             </Card.Body>
                         </Card>
-                        <Card className='m-3' style={{ width: '18rem', height: '22.8rem' }}>
+                        <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
                             <Card.Img variant="top" src={Card3} />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Facility Manager</Card.Title>
@@ -80,7 +80,7 @@ const Experience = () => {
                                     S24*7 Facility Services Pvt Ltd <br></br>
                                     AUG 2021 to SEP 2022
                                 </Card.Text>
-                                <button className='bg-success bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white' onClick={handleShow2}>Tap more</button>
+                                <button className='bg-tertiary shadow-sm bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 ' onClick={handleShow2}>Tap more</button>
                             </Card.Body>
                         </Card>
                         <Modal
@@ -96,11 +96,12 @@ const Experience = () => {
                             </Modal.Header>
                             <Modal.Body>
                                 <ul className='text-algn'>
-                                    <li>Well-proficient in Front-end website development with Vue.js, Vue-Bootstrap, Quasar framework , React.js creating responsive user interfaces and enchancing user experiences. </li>
-                                    <li>Good knowledge in developing backend appilications in Java using SpringBoot Framework and Javascript using Express.js, Node.js handling REST APIs and implements business logic.</li>
-                                    <li>Experience in working with PostgreSQL and MongoDB as a database for efficient in data storage and retrieval.</li>
-                                    <li>Hands-on Experience in version control using Git and GitHub, managing code repositories and colloborating with other developers. </li>
-                                    <li>Familiarity with Agile Methodology, participating in ceremonies like weekly-standups, Sprint Planning, Sprint Review and Retrospective.</li>
+                                    <li>Provided technical support by troubleshooting any reported bugs or errors occurring within the system.</li>
+                                    <li>Collaborated with other developers to identify areas of improvement within the application stack.</li>
+                                    <li>Developed and maintained web applications using  React.js,  Node.js, JavaScript, Tailwind CSS, Java, springboot.</li>
+                                    <li>Assisted in designing database schemas for efficient storage of information related to web application's functionality.</li>
+                                    <li>Tested and debugged front-end and back-end components for web applications.</li>
+                                    <li>Utilized Git for version control, facilitating team collaboration and code management.</li>
                                 </ul>
                             </Modal.Body>
                         </Modal>
