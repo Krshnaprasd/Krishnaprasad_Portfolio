@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Card1 from './assets/examsdaily.jpg'
 import Card2 from './assets/Bluestone.jpg'
 import Card3 from './assets/s24.jpg'
+import vezham from './assets/vezham.png'
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
@@ -36,7 +37,15 @@ const Experience = () => {
         document.getElementById('background-content').classList.add('blur');
     };
 
-
+    const [show3, setShow3] = useState(false);
+    const handleClose3 = () => {
+        setShow3(false);
+        document.getElementById('background-content').classList.remove('blur');
+    };
+    const handleShow3 = () => {
+        setShow3(true);
+        document.getElementById('background-content').classList.add('blur');
+    };
 
 
 
@@ -48,15 +57,25 @@ const Experience = () => {
     return (
         <>
             <div className="container-fluid " id='background-content'>
-                <div className='name-font container  text-center '>
+                <div className='name-font container-fluid  text-center '>
                     <div className="text-center fs-2 fw-bold name-font1 pb-4">Area of <span className="fs-2 fw-bold name-font">Expertise</span></div>
                     <div className='justify-content-evenly d-md-flex d-grid'>
                         <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
-                            <Card.Img variant="top" src={Card1} className='shadow-sm'/>
+                            <Card.Img variant="top" src={vezham} className='shadow-sm' />
+                            <Card.Body>
+                                <Card.Title className='fs-5 fw-bold name-font'>Software Engineer</Card.Title>
+                                <Card.Text>
+                                    Vezham Technologies Pvt Ltd <br></br> JUL 2025 - JUL 2026
+                                </Card.Text>
+                                <button className=' bg-tertiary bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 shadow-sm' onClick={handleShow3}>Tap more</button>
+                            </Card.Body>
+                        </Card>
+                        <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
+                            <Card.Img variant="top" src={Card1} className='shadow-sm' />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Full Stack Developer</Card.Title>
                                 <Card.Text>
-                                  Mathy ExamsDaily Pvt Ltd <br></br> AUG 2023 - Present
+                                    Mathy ExamsDaily Pvt Ltd <br></br> AUG 2022 - JUL 2025
                                 </Card.Text>
                                 <button className=' bg-tertiary bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 shadow-sm' onClick={handleShow}>Tap more</button>
                             </Card.Body>
@@ -69,7 +88,7 @@ const Experience = () => {
                                     Bluestone pvt ltd.<br></br>
                                     SEP 2022 to AUG 2023
                                 </Card.Text>
-                                <button className='bg-secondary bg-gradient p-2 ps-5 pe-5 rounded-2 shadow-sm border-0 text-white' onClick={handleShow1}>Tap more</button>
+                                <button className='bg-tertiary bg-gradient p-2 ps-5 pe-5 rounded-2 shadow-sm border-0 ' onClick={handleShow1}>Tap more</button>
                             </Card.Body>
                         </Card>
                         <Card className='m-3' style={{ width: '18rem', height: '18.5rem' }}>
@@ -83,6 +102,34 @@ const Experience = () => {
                                 <button className='bg-tertiary shadow-sm bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 ' onClick={handleShow2}>Tap more</button>
                             </Card.Body>
                         </Card>
+                        <Modal
+                            show={show3}
+                            onHide={handleClose3}
+                            backdrop="static"
+                            keyboard={false}
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <Modal.Header closeButton>
+                                <Modal.Title>Roles & Responsibilities</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <ul className='text-algn'>
+                                    <li>Developed and maintained scalable product-based web applications using ReactJS, HeroUI Pro, TypeScript and TanStack Router.
+                                    </li>
+                                    <li>Built 25+ reusable UI components and responsive layouts to improve application consistency and user experience.
+                                    </li>
+                                    <li>Implemented client-side routing across 10+ pages/routes, improving navigation flow using TanStack Router.
+                                    </li>
+                                    <li>Collaborated with a team of 2+ designers and backend developers to deliver new product features & optimize existing modules.
+                                    </li>
+                                    <li>Debugged and resolved 20+ front-end issues, improving application performance and usability across devices.
+                                    </li>
+                                    <li>Utilized Git for version control, code reviews, and team collaboration in agile development workflows.
+                                    </li>
+                                </ul>
+                            </Modal.Body>
+                        </Modal>
                         <Modal
                             show={show}
                             onHide={handleClose}

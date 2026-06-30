@@ -12,11 +12,47 @@ const Projects = () => {
             <div className="container">
             <div className="text-center fs-2 fw-bold name-font pt-3 pb-4">Projects</div>
                 
+                  <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <span className='fs-5 fw-bold'>School-OS – School Management System (POC)</span></Accordion.Header>
+                        <Accordion.Body>
+                            <div className='d-flex justify-content-center'>
+                            <Card  style={{ width: '60rem' }}>
+                                <Card.Body>
+                                    <Card.Text>
+                                    <p>Name: School-OS – School Management System (POC)</p>
+                                         <p>Environment:  React.js, HeroUI, TypeScript, TailwindCSS, Tanstack Router. </p>
+                                  
+                                    <span className='fs-3 fw-bold'>Key Features & Contributions</span> <br></br><br></br>
+                                      <ul>
+                                        <li>                                        Responsive and 25+ reusable UI components using React.js, TypeScript, & HeroUI for a consistent user experience.
+</li>
+                                        <li>Implemented TanStack Router for efficient client-side navigation with nested and protected routes across multiple modules.
+</li>
+                                        <li>Built interactive interfaces for Student Management, Teacher Management, Attendance Tracking, Class Schedules, Timetables, Examinations, Academic Reports, and Transport Management.
+</li>
+                                        <li>Designed responsive layouts with form validation, data tables, filtering, and intuitive navigation to improve usability.
+</li> 
+                                        <li>Collaborated with backend developers and UI/UX designers to deliver scalable, maintainable, and production-ready frontend modules.
+</li>                              
+                                    </ul>
+
+                                    
+
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion><br></br>
+
 
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                            <span className='fs-5 fw-bold'>FoodNest - Food website clone </span></Accordion.Header>
+                            <span className='fs-5 fw-bold'>FoodNest - E-commerce Site  </span></Accordion.Header>
                         <Accordion.Body>
                             <div className='d-flex justify-content-center'>
                             <Card  style={{ width: '60rem' }}>

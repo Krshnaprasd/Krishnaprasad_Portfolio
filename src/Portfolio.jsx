@@ -86,7 +86,9 @@ const Portfolio = () => {
                                 <ul>
                                     <span className='fs-6 fw-bold'>Languages</span>
                                     <li>Java</li>
-                                    <li>Javascript</li>
+                                       <li>TypeScript</li>
+                                    <li>JavaScript</li>
+                                      <li>HeroUI Pro</li>
                                     <li>HTML5</li>
                                     <li>CSS3</li>  
                                 </ul>
@@ -110,6 +112,7 @@ const Portfolio = () => {
                             <div className="col">
                                 <ul><span className='fs-6 fw-bold'>Version Control</span>
                                     <li>GitHub</li>
+                                       <li>Git</li>
                                 </ul>
                             </div>
                         </div>

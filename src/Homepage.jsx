@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal'
 import Image from 'react-bootstrap/Image';
 import Type from './TypeAnimation.jsx'
 
-import Resume from './assets/Krishnaprasad_Fullstack Developer_3.9yrsexp_Resume.pdf'
+import Resume from './assets/Krishnaprasad_FrontendDeveloper_4yrs_Resume.pdf'
 import Img1 from './assets/IMG_7610.png'
 import Img2 from './assets/IMG_7622.PNG'
 
@@ -36,7 +36,7 @@ const Homepage = () => {
                 
                 <div className='text-algn'>
                 <span >
-                Innovative Full Stack Developer known for high productivity and efficient task completion. Possess specialized skills in React.js, Node.js, Java, Springboot and Javascript ensuring robust front-end and back-end development. Excel in critical thinking, problem-solving, and teamwork, facilitating seamless collaboration on complex projects.
+Frontend Developer with 4+ years of experience building responsive web applications using React.js, TypeScript, JavaScript, HTML5, CSS3, TailwindCSS, & HeroUI. Transitioned into software development from a facilities management background, bringing strong problem-solving and process-driven thinking into frontend engineering. Skilled in developing reusable components, integrating REST APIs, implementing client-side routing, & optimizing application performance. Experienced in writing clean, maintainable code and collaborating in Agile development teams.
 </span>                  
                   </div></div>
             </div>
@@ -91,7 +91,7 @@ const Homepage = () => {
             <div className="about-content col-lg-6 text-algn">
               <span className="name-font fs-2 fw-bold">About Me.</span>
               <p className="pt-2"><span className="fs-6">
-                - Well-proficient in Front-end website development with <span className="fw-bold">React.Js, Vue.Js & Quasar Frameworks</span>  creating responsive user interfaces and enchancing user experiences.<br></br><br></br>
+                - Well-proficient in Front-end website development with <span className="fw-bold">React.Js, TypeScript, JavaScript, TailwindCSS, Vue.Js & Quasar Frameworks</span>  creating responsive user interfaces and enchancing user experiences.<br></br><br></br>
                 - Good knowledge in developing backend appilications in Java using <span className="fw-bold">SpringBoot</span>  and <span className="fw-bold">Javascript</span> using <span className="fw-bold">Express.js, Node.js</span> handling REST APIs and implements business logic.<br></br><br></br>
                 - Experience in working with <span className="fw-bold">PostgreSQL and MongoDB</span> as a database for efficient in data storage and retrieval.<br></br><br></br>
                 - Hands-on Experience in version control using <span className="fw-bold">Git and GitHub,</span>  managing code repositories and colloborating with other developers. <br></br><br></br>
